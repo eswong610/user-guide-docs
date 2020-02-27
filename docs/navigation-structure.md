@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Navigation Structure
+title: Set-up 
 nav_order: 5
 ---
 
