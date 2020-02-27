@@ -6,8 +6,8 @@ description: "Just the Docs is a responsive Jekyll theme with built-in search th
 permalink: /
 ---
 
-
-# Focus on writing good documentation
+![cloud image](https://media.istockphoto.com/photos/cloud-computing-and-network-security-technology-concept-picture-id846400236?k=6&m=846400236&s=612x612&w=0&h=GxYt_G5mJN0hCrAmaRuDQo7Z3O0c7DOVt5fsD_SkdeQ=)
+# **How to use Mongodb Atlas on Mongodb for Mac OS**
 {: .fs-9 }
 
 Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
