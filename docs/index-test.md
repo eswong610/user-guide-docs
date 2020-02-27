@@ -5,13 +5,13 @@ nav_order: 99
 ---
 [Link to another page](another-page).
 
-## **Introduction test here**  , _italic_, or ~~strikethrough~~. *TEst* **WORK!!
+### **Introduction test here**  
 
 
 
-As a budding developer, crafting your own database is both time-consuming and frustrating to learn. One solution is to have third party source takes care of database handling. Mongodb Atlas provides a database as a service platform. This guide will provide an introductory level to Mongodb Atlas. 
+As a budding developer, crafting your own database is both time-consuming and frustrating to learn. One solution is to have third party source takes care of database handling. Mongodb Atlas provides a database as a service platform for fast database deployment. This guide will provide an introductory level to Mongodb Atlas. 
 
-# [](#header-1)Header 1
+## [](#header-1)goal 
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
