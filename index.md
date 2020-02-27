@@ -15,6 +15,4 @@ permalink: /
 
 ---
 
-## Getting started
 
-### Dependencies
