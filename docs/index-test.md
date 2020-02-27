@@ -3,14 +3,13 @@ layout: default
 title: Markdown kitchen sink
 nav_order: 99
 ---
-
-*TEst* **WORK!!!** Introduction test here **bold**, _italic_, or ~~strikethrough~~.
-
 [Link to another page](another-page).
 
-There should be whitespace between paragraphs.
+## **Introduction test here**  , _italic_, or ~~strikethrough~~. *TEst* **WORK!!
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+
+
+As a budding developer, crafting your own database is both time-consuming and frustrating to learn. One solution is to have third party source takes care of database handling. Mongodb Atlas provides a database as a service platform. This guide will provide an introductory level to Mongodb Atlas. 
 
 # [](#header-1)Header 1
 
