@@ -28,6 +28,6 @@ Then type in `brew install mongodb-community` to install mongodb
 
 To check you have the Mongodb installed, and you have the right version, type in `mongo --version` into the terminal.  
 You should the following output. 
-![mongoversion](https://github.com/eswong610/user-guide-docs/blob/gh-pages/terminal.png "mongo version terminal")
+![mongoversion](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/terminal.png "mongo version terminal")
 
 
