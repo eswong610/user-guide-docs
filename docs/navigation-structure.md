@@ -15,11 +15,11 @@ Go to Mongodb site and register for an account. Once registered you will be redi
 
 At the starter cluster webpage, it will give you options to choose a cloud provider and a region. Choose AWS and a recommended region. 
 
-![cloudprovider](https://github.com/eswong610/user-guide-docs/blob/gh-pages/cloudprovider.png "cloud provider")
+![cloudprovider](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/cloudprovider.png?raw=true "cloud provider")
 
 
 Make sure the cluster tier is checked under the free forever column. 
-![freecluster](https://github.com/eswong610/user-guide-docs/blob/gh-pages/cluster.png "Free cluster")
+![freecluster](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/cluster.png?raw=true "Free cluster")
 
 Once you click create starter cluster, a new cluster will be created which will take around 1-2 minutes 
 
