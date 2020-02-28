@@ -18,7 +18,7 @@ By the end of this guide, you will have set up your own account with Mongodb alt
 
 ![Settings Window](https://raw.github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/stick-figure-drawing.jpg?raw=true)
 
-<img src="https://raw.github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/stick-figure-drawing.jpg" width="100" height="100"/>
+<img src="https://raw.github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/stick-figure-drawing.jpg?raw=true" width="100" height="100"/>
 
 test test test
 
