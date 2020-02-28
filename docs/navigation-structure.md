@@ -11,7 +11,7 @@ nav_order: 5
 
 Go to Mongodb site and register for an account. Once registered you will be redirect and prompted to pick a plan. There are 3 plans to choose from. For our purposes, a free account will be enough as it caters to small web applications. 
 
-![registration](https://github.com/eswong610/user-guide-docs/blob/gh-pages/register.png "LOGIN")
+![registration](https://github.com/eswong610/user-guide-docs/blob/gh-pages/register.png?raw=true "LOGIN")
 
 At the starter cluster webpage, it will give you options to choose a cloud provider and a region. Choose AWS and a recommended region. 
 
