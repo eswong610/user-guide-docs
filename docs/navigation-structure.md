@@ -13,13 +13,21 @@ Go to Mongodb site and register for an account. Once registered you will be redi
 
 ![registration](https://github.com/eswong610/user-guide-docs/blob/gh-pages/Screen%20Shot%202020-02-27%20at%202.17.37%20PM.png "LOGIN")
 
-At the starter cluster webpage, it will give you options to choose a cloud provider and a region. Choose AWS and a recommended region. Make sure the cluster tier is checked under the free forever column. 
+At the starter cluster webpage, it will give you options to choose a cloud provider and a region. Choose AWS and a recommended region. 
+
+![cloudprovider](https://github.com/eswong610/user-guide-docs/blob/gh-pages/Screen%20Shot%202020-02-27%20at%202.23.22%20PM.png "cloud provider")
+
+
+Make sure the cluster tier is checked under the free forever column. 
+![freecluster](https://github.com/eswong610/user-guide-docs/blob/gh-pages/Screen%20Shot%202020-02-27%20at%202.19.33%20PM.png "Free cluster")
+
 Once you click create starter cluster, a new cluster will be created which will take around 1-2 minutes 
 
 In your terminal, paste in `brew tap mongodb/brew`    to find the Mongodb tap
 Then type in `brew install mongodb-community` to install mongodb
 
 To check you have the Mongodb installed, and you have the right version, type in `mongo --version` into the terminal.  
-You should have the above as the output. 
+You should the following output. 
+![mongoversion](https://github.com/eswong610/user-guide-docs/blob/gh-pages/Screen%20Shot%202020-02-27%20at%203.11.41%20PM.png "mongo version terminal")
 
 
