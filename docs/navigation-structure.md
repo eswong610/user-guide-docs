@@ -11,15 +11,15 @@ nav_order: 5
 
 Go to Mongodb site and register for an account. Once registered you will be redirect and prompted to pick a plan. There are 3 plans to choose from. For our purposes, a free account will be enough as it caters to small web applications. 
 
-![registration](https://github.com/eswong610/user-guide-docs/blob/gh-pages/Screen%20Shot%202020-02-27%20at%202.17.37%20PM.png "LOGIN")
+![registration](https://github.com/eswong610/user-guide-docs/blob/gh-pages/register.png "LOGIN")
 
 At the starter cluster webpage, it will give you options to choose a cloud provider and a region. Choose AWS and a recommended region. 
 
-![cloudprovider](https://github.com/eswong610/user-guide-docs/blob/gh-pages/Screen%20Shot%202020-02-27%20at%202.23.22%20PM.png "cloud provider")
+![cloudprovider](https://github.com/eswong610/user-guide-docs/blob/gh-pages/cloudprovider.png "cloud provider")
 
 
 Make sure the cluster tier is checked under the free forever column. 
-![freecluster](https://github.com/eswong610/user-guide-docs/blob/gh-pages/Screen%20Shot%202020-02-27%20at%202.19.33%20PM.png "Free cluster")
+![freecluster](https://github.com/eswong610/user-guide-docs/blob/gh-pages/cluster.png "Free cluster")
 
 Once you click create starter cluster, a new cluster will be created which will take around 1-2 minutes 
 
@@ -28,6 +28,6 @@ Then type in `brew install mongodb-community` to install mongodb
 
 To check you have the Mongodb installed, and you have the right version, type in `mongo --version` into the terminal.  
 You should the following output. 
-![mongoversion](https://github.com/eswong610/user-guide-docs/blob/gh-pages/Screen%20Shot%202020-02-27%20at%203.11.41%20PM.png "mongo version terminal")
+![mongoversion](https://github.com/eswong610/user-guide-docs/blob/gh-pages/terminal.png "mongo version terminal")
 
 
