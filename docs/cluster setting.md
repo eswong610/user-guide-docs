@@ -16,7 +16,7 @@ Log into mongodb atlas using your email and password.
 
 You should be redirected into this page if you have already set up a free cluster.
 
-![mongo](https://imgur.com/a/sF7seWq)
+![mongo](https://imgur.com/a/sF7seWq "Logo Title Text 1")
 
 
 ##
