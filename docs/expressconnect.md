@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cluster setting
+title: NodeJS implementation
 nav_order: 2
 ---
 
