@@ -7,7 +7,7 @@ nav_order: 5
 ## Step 1 
 {: .no_toc }
 
-### Set up a Mongodb account and install it locally 
+### Set up a Mongodb account and Configure Settings
 
 This set up will include setting up a Mongodb Atlas account and downloading it for local use. 
 
@@ -25,17 +25,10 @@ Make sure the cluster tier is checked under the free forever column in the M0 Sa
 
 Once you enter a name and click create starter cluster, a new cluster will be created which will take around 1-2 minutes. 
 
-By now, you will have set up an account and we will proceed with installing Mongodb locally. 
+By now, you will have set up an account and we will proceed with configuring the settings. 
 
-Using Homebrew, you will install Mongodb. In your terminal, paste in the following code
-`brew tap mongodb/brew`    
-to find the Mongodb tap. 
 
-We will install the community server since it is available open source for Mac OS, Windows and Linux. 
-Type in `brew install mongodb-community` to install mongodb in the terminal
 
-To check you have the Mongodb installed, and you have the right version, type in `mongo --version` into the terminal.  
-You should the following output. 
-![mongoversion](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/terminal.png?raw=true "mongo version terminal")
+
 
 
