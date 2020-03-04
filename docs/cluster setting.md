@@ -48,3 +48,6 @@ From here, you want to click the **Connect your Application** option.
 A new page will say connect to <your cluster name>.
   
 ![mongo](/assets/images/uristring.png)
+
+In the driver, make sure you select the correct language. For this user guide, you will be using node.js.
+The window will generate you the uri connection string will you can now use to connect your application to mongodb cluster.
