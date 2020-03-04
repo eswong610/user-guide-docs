@@ -19,7 +19,13 @@ You should be redirected into this page if you have already set up a free cluste
 ![mongo](/assets/images/mongodbaltasfront.png)
 
 
-##
-
-
+## step 2 - Creating a database user
 The purpose of a *database user* is to authorize the application to read, write or both onto the cluster based on the settings you pick.
+
+On the left sidebar, go to the Security tab and select the database access. 
+
+Now press the add new user on the far right side.
+
+![mongo](/assets/images/newuser.png)
+
+
