@@ -31,5 +31,20 @@ Now press the add new user on the far right side. A new window should pop up lik
 
 From here you want to enter in an username and a password. Save this in a notepad or safe viewable file. For the database priveleges you will want to set it as "read and write to any database".
 
-## step 3 - Getting the URI string
+## step 3 - whitelisting your IP address
 
+>This is a security step that will ensure that database access will be restrict to your current IP. You can also allow >access for any IP , however you risk higher chance of security breach and exploits.
+
+Go to the Network access, and add new IP address to whitelist your IP address.
+
+## step 4 - Getting the URI string
+
+Return back to the main page, click on the clusters on the sidebar. You will be viewing your current cluster.
+Right below the cluster name, there is a connect button. Click on it and a new window will be prompted.
+
+![mongo](/assets/images/connect.png)
+
+From here, you want to click the **Connect your Application** option.
+A new page will say connect to <your cluster name>.
+  
+![mongo](/assets/images/uristring.png)
