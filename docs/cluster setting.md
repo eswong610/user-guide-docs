@@ -17,7 +17,7 @@ Log into mongodb atlas using your email and password.
 You should be redirected into this page if you have already set up a free cluster.
 
 ![mongo](/assets/images/mongodbaltasfront.png)
-
+![mongo](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/cluster.png?raw=true)
 
 ## step 2 - Creating a database user
 >The purpose of a *database user* is to authorize the application to read, write or both onto the cluster based on the >settings you pick.
