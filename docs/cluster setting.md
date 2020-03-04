@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cluster setting
-nav_order: 4
+nav_order: 5
 ---
 
 ## Setting up your cluster
