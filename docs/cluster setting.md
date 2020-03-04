@@ -16,7 +16,7 @@ Log into mongodb atlas using your email and password.
 
 You should be redirected into this page if you have already set up a free cluster.
 
-![mongo](/assets/images/mongodbatlasfront.png)
+![mongo](/assets/images/mongodbaltasfront.png)
 
 
 ##
