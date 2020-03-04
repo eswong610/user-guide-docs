@@ -16,6 +16,7 @@ Log into mongodb atlas using your email and password.
 
 You should be redirected into this page if you have already set up a free cluster.
 
+![alt text][logo]
 [logo]: https://github.com/eswong610/user-guide-docs/tree/gh-pages/assets/images/mongodbaltasfront.png "Logo Title Text 2"
 
 
