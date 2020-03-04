@@ -1,3 +1,8 @@
+---
+layout: default
+title: Cluster setting
+nav_order: 2
+---
 
 Set up a new project folder and create your files according to this structure. 
 
