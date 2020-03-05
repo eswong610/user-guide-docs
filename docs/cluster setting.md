@@ -16,8 +16,8 @@ Log into mongodb atlas using your email and password.
 
 You should be redirected into this page if you have already set up a free cluster.
 
-![mongo](/assets/images/mongodbaltasfront.png)
-![mongo](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/cluster.png?raw=true)
+
+![mongo](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/mongodbaltasfront.png?raw=true)
 
 ## step 2 - Creating a database user
 >The purpose of a *database user* is to authorize the application to read, write or both onto the cluster based on the >settings you pick.
@@ -26,7 +26,7 @@ On the left sidebar, go to the Security tab and select the database access.
 
 Now press the add new user on the far right side. A new window should pop up like the image below.
 
-![mongo](/assets/images/newuser.png)
+![mongo](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/newuser.png?raw=true)
 
 
 From here you want to enter in an username and a password. Save this in a notepad or safe viewable file. For the database priveleges you will want to set it as "read and write to any database".
@@ -42,12 +42,15 @@ Go to the Network access, and add new IP address to whitelist your IP address.
 Return back to the main page, click on the clusters on the sidebar. You will be viewing your current cluster.
 Right below the cluster name, there is a connect button. Click on it and a new window will be prompted.
 
-![mongo](/assets/images/connect.png)
+
+![mongo](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/connect.png?raw=true)
+
 
 From here, you want to click the **Connect your Application** option.
 A new page will say connect to <your cluster name>.
   
-![mongo](/assets/images/uristring.png)
+
+![mongo](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/uristring.png?raw=true)
 
 In the driver, make sure you select the correct language. For this user guide, you will be using node.js.
 The window will generate you the uri connection string will you can now use to connect your application to mongodb cluster.
