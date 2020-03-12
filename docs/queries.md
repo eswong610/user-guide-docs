@@ -24,6 +24,8 @@ You would then need to export the model at the end of the file using `modules.ex
 The first argument is the name of the model you want to use internally. 
 The second argument is the schema you want to use for that model. 
 
+![mongoschema](https://github.com/eswong610/user-guide-docs/blob/gh-pages/docs/mongoschema.png?raw=true)
+
 ### Step 2
 
 Mongoose is commonly used alongside Mongodb, 
