@@ -46,4 +46,22 @@ Here is an example of your operations graph after a post request. R stands for '
 
 Congratulations! You've made your first entry into your database! 
 
+## Step 3
+
+To query anything from the database, you will need to use various function calls on the schema. Since we have named our schema 
+'sample', we will use the method `findById` to return a data object that matches the id you input. 
+
+```
+sample.findById(myId, function (err, obj) {
+  if (!err) {
+    obj.name.remove();
+    obj.save(function (err) {
+      console.log(err)
+    });
+  }
+});
+```
+The code above will find the data object by the _id_ and remove the name attribute from the object. It will save the object and as it is without the name.  
+
+
 
