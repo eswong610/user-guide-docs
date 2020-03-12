@@ -19,6 +19,8 @@ In the server.js file, require the express module and set up a simple server lik
 In the set up, you should have gotten the connection string from the last step. It should look a little something like this.
 ![connectstr](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/connectstring.png?raw=true)
 
+In the string, instead of <password>, replace it with the password you have customized.
+
 In the connection.js file under the Database folder, require the mongoose module, and set the connection string from as a variable. 
 For ease, copy and paste the code snippet 
 
