@@ -25,6 +25,9 @@ The first argument is the name of the model you want to use internally.
 The second argument is the schema you want to use for that model. 
 
 ### Step 2
+
+Mongoose is commonly used alongside Mongodb, 
+
 In the file where your endpoints are, import mongoose. Create a post request endpoint so we can begin to insert new data. Start by creating an instance of the model and store it in a variable for it to be used as a constructor. 
 ##image 
 
@@ -36,6 +39,10 @@ It takes in a callback function or promises.
 If you are looking to get user data from a form, you will need to npm install body-parser as well to access the body of the request parameters. Once you have done so, insert `app.use(bodyParser.urlencoded({ extended: true }))` to fully enable the body parser and access your data. Try it out with a Postman post request!
 
 Once you make a post request with data, and it saves to the database using the model construct, it should show up as an operation on MongoDB Atlas as a read or write operation in the cluster. This may take a few minutes. 
+
+Here is an example of your operations graph after a post request. R stands for 'read', and W stands for 'write'
+
+![mongoatlas](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/mongoatlasrw.png?raw=true)
 
 Congratulations! You've made your first entry into your database! 
 
