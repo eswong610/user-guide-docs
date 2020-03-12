@@ -40,7 +40,7 @@ If you are looking to get user data from a form, you will need to npm install bo
 
 Once you make a post request with data, and it saves to the database using the model construct, it should show up as an operation on MongoDB Atlas as a read or write operation in the cluster. This may take a few minutes. 
 
-Here is an example of your operations graph after a post request. R stands for 'read', and W stands for 'write'
+Here is an example of your operations graph after a post request. R stands for 'read', to represent queries into the database. W stands for 'write' which refers to post requests that alter or insert data into the database. 
 
 ![mongoatlas](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/mongoatlasrw.png?raw=true)
 
