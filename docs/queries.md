@@ -63,5 +63,5 @@ sample.findById(myId, function (err, obj) {
 ```
 The code above will find the data object by the _id_ and remove the name attribute from the object. It will save the object and as it is without the name.  
 
-
+There are a number of other querying functions such as find(), _findOne(), _findOneAndReplace().
 
