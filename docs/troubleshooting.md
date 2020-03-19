@@ -1,3 +1,9 @@
+---
+layout: default
+title: Troubleshooting
+nav_order: 7
+---
+
 ## Troubleshooting
 
 If your Mongodb connection is closing automatically, make sure to check that your IP address is whitelisted, or that
