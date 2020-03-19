@@ -36,4 +36,10 @@ Cost: Number,
 ```
 
 After you finish adding in the schema values. You will export them using module.export and it takes 2 parameters ("reference name", [name of the schema you called it]).
+
+```
+module.exports = mongoose.model('Product', ProductSchema);
+```
+
+To learn more on the different key:value you can define in your schema, check the mongoose [link][https://mongoosejs.com/docs/guide.html]
 ![mongo](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/schemajs.png?raw=true)
