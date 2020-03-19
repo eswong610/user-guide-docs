@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cluster setting
+title: Schema
 nav_order: 5
 ---
 
