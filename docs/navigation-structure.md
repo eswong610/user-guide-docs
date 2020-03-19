@@ -4,10 +4,9 @@ title: Set-up
 nav_order: 2
 ---
 
-## Step 1 
+## Step 1 - Setting up a Mongodb account 
 {: .no_toc }
 
-### Set up a Mongodb account and Configure Settings
 
 This set up will include setting up a Mongodb Atlas account and downloading it for local use. 
 
