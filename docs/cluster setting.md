@@ -4,7 +4,7 @@ title: Cluster setting
 nav_order: 3
 ---
 
-## Setting up your cluster
+### Setting up your cluster
 
 ----
 
