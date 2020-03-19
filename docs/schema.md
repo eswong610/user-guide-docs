@@ -14,3 +14,4 @@ To do this we need to use mongoose to create schema. Mongoose will also be used 
 In a folder, you will want to create a file to store the schema that will be exported onto your app.js.
 Let's just called this file schema.js
 
+![mongo](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/schemajs.png?raw=true)
