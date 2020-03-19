@@ -46,5 +46,26 @@ module.exports = mongoose.model('Product', ProductSchema);
 ![mongo](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/schemajs.png?raw=true)
 
 
+## step 2 
 
+Your database will most likely need references for different relationship. In Mongodb, there are two types of references: manual and DBRefs. Manual reference uses the id from one schema then enter it into a new schema to reference the first schema.
+
+![reference](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/reference.png?raw=true)
+
+
+The DbRef references uses the value in one schema. Like this example:
+
+```
+{
+  "_id" : ObjectId("5126bbf64aed4daf9e2ab771"),
+  // .. application fields
+  "creator" : {
+                  "$ref" : "creators",
+                  "$id" : ObjectId("5126bc054aed4daf9e2ab772"),
+                  "$db" : "users"
+               }
+}
+```
+
+Most cases you will use manual references as the developer community view DBRef negatively due to field ordering that can lead to mistake in the reading and writing of the schema.
 
