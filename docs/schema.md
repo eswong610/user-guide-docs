@@ -9,7 +9,7 @@ nav_order: 5
 Now that we have our mongodb cluster connected, we want to create a table or schema for data to be stored in.
 To do this we need to use mongoose to create schema. Mongoose will also be used in other functions with Mongodb Atlas.
 
-## step 1 - Setting your own schema
+## step 7 - Setting your own schema
 
 In a folder, you will want to create a file to store the schema that will be exported onto your app.js.
 Let's just called this file schema.js
@@ -46,7 +46,7 @@ module.exports = mongoose.model('Product', ProductSchema);
 ![mongo](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/schemajs.png?raw=true)
 
 
-## step 2 
+## step 8 - Creating references
 
 Your database will most likely need references for different relationship. In Mongodb, there are two types of references: manual and DBRefs. Manual reference uses the id from one schema then enter it into a new schema to reference the first schema.
 
