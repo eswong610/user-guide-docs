@@ -4,7 +4,7 @@ title: Patch
 nav_order: 6
 ---
 
-## Step 1 - Updating the database
+## Step 9 - Updating the database
 {: .no_toc }
 
 
@@ -21,7 +21,7 @@ in the update method, it will take two parameters. The first one is to locate th
 
 Call `.exec()` on the update and finish the promises with a `.then` and `.catch` statement to catch any errors. 
 
-## Step 1 - Deleting from the database
+## Step 10 - Deleting from the database
 Deleting values from the database is very similar to patching. With the delete CRUD method, set up an endpoint that should delete a pre-existing value. 
 
 This code below basically says to delete any data object that matches the following criteria 
