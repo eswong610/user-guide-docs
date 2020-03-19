@@ -3,7 +3,7 @@ layout: default
 title: NodeJS implementation
 nav_order: 4
 ---
-## step 1 - Connecting your mongodb to express
+## step 6 - Connecting your mongodb to express
 
 Set up a new project folder and create your files according to this structure. 
 
