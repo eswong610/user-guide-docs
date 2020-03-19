@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Set-up 
-nav_order: 5
+nav_order: 2
 ---
 
 ## Step 1 
