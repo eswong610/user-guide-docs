@@ -35,16 +35,20 @@ _id: mongoose.Schema.Types.ObjectId,
 for integer values, the basic is to use 'Number'
 
 ```
-Cost: Number,
+Amount : Number,
 ```
 
-After you finish adding in the schema values. You will export them where it takes 2 parameters ("reference name", [name of the schema you called it]).
+After you finish adding in the schema values. You will export them where it takes 2 parameters ("reference name", [name]). The first argument is the name of the model you want to use internally. The second argument is the schema you want to use for that model.
 
 Step 5 - Export your schema using module.exports
 
 ```
 module.exports = mongoose.model('Product', ProductSchema);
 ```
+
+Your code at the end should look like this: 
+![mongoschema](https://github.com/eswong610/user-guide-docs/blob/gh-pages/docs/mongoschema.png?raw=true)
+
 
 >To learn more on the different key:value you can define in your schema, check the mongoose [link](https://mongoosejs.com/docs/guide.html).
 
