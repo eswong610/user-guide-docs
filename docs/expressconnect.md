@@ -9,7 +9,7 @@ Step 1 - Set up a new project folder and create your files according to this str
 
 ![fileorder](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/fileorder.png?raw=true)
 
-Step 2 - Start up your node package manager for your dependencies with `npm init`. 
+Step 2 - Start up your node package manager for your dependencies with `npm init`on the terminal in your project directory. 
 
 Step 3 - Install mongoose and expressJS with `npm install express mongoose` to access both these packages.
 
