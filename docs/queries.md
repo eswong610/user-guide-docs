@@ -6,7 +6,8 @@ nav_order: 7
 
 ### Queries and Data Input
 {: .no_toc }
-## Step 11 - Making the schema
+
+Making the schema
 
 To start storing data in the database, we will be using mongoose to create a model. Mongoose works with models and schemas so you will first need to define _how_ the data is stored before you actually store anything. Once you decide how the data should look like, you will define it with a model (e.g. a javascript object). The model will have several functions that you can use to either save, update, query the data, and so on. 
 
@@ -27,7 +28,7 @@ The second argument is the schema you want to use for that model.
 
 ![mongoschema](https://github.com/eswong610/user-guide-docs/blob/gh-pages/docs/mongoschema.png?raw=true)
 
-## Step 12 - Inserting into a schema
+## Inserting into a schema
 
 Mongoose is commonly used alongside Mongodb, 
 
@@ -49,7 +50,7 @@ Here is an example of your operations graph after a post request. R stands for '
 
 Congratulations! You've made your first entry into your database! 
 
-## Step 13 - Querying the database
+## Querying the database
 
 To query anything from the database, you will need to use various function calls on the schema. Since we have named our schema 
 'sample', we will use the method `findById` to return a data object that matches the id you input. 
