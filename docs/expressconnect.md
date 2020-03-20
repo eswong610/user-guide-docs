@@ -5,7 +5,7 @@ nav_order: 4
 ---
 ## Connecting your Mongodb to Express Server
 
-Step 1 - Set up a new project folder and create your files according to this structure. 
+Step 1 - Set up a new project folder and create your files according to this structure in the following image. 
 
 ![fileorder](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/fileorder.png?raw=true)
 
