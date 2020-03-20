@@ -4,28 +4,31 @@ title: Schema
 nav_order: 5
 ---
 
-### Schema
+### Setting your own Schema
 
-Now that we have our mongodb cluster connected, we want to create a table or schema for data to be stored in.
-To do this we need to use mongoose to create schema. Mongoose will also be used in other functions with Mongodb Atlas.
+Now that we have our Mongodb cluster connected, we want to create a table or schema for data to be stored in.
+To do this we need to use Mongoose to create schema. Mongoose will also be used in other functions with Mongodb Atlas.
 
-## step 7 - Setting your own schema
+Step 1 - Create a new folder called models; you will create a file to store the schema that will be exported onto your app.js.
+Let's call this file schema.js.
 
-In a folder, you will want to create a file to store the schema that will be exported onto your app.js.
-Let's just called this file schema.js
-From there, you want to call in the mongoose module like this
+Step 2 - Call in the mongoose module into schema.js like this:
 ```
 const mongoose = require('mongoose');
 ```
 To make a schema, you set 'key: values' similar to mysql format. Schema are written as variable using const. 
-In this example, we will do "const UserSchema". The next part is calling mongoose by inputing this command "mongoose.Schema({})". This will be the body of your schema and everything inside will define it.
+In this example, we will do "const UserSchema". The next part is calling mongoose by inputing this command "mongoose.Schema({})". This will be the body of your schema and everything inside will define it. 
+
+Step 3 - Set mongoose.Schema as a variable.
 
 ```
 const UserSchema = mongoose.Schema
 ```
 
-For id => you will put _id 
+For id => you will put _ _id_.
+It is convention to start off with _ id with type mongoose.schemas.Types.ObjectId. This generates a randomized string/serialized string that uniquely identifies the data object. It is a function of mongoose.
 
+Step 4 - Set your id key value.
 ```
 _id: mongoose.Schema.Types.ObjectId,
 ```
@@ -35,7 +38,9 @@ for integer values, the basic is to use 'Number'
 Cost: Number,
 ```
 
-After you finish adding in the schema values. You will export them using module.export and it takes 2 parameters ("reference name", [name of the schema you called it]).
+After you finish adding in the schema values. You will export them where it takes 2 parameters ("reference name", [name of the schema you called it]).
+
+Step 5 - Export your schema using module.exports
 
 ```
 module.exports = mongoose.model('Product', ProductSchema);
@@ -46,7 +51,7 @@ module.exports = mongoose.model('Product', ProductSchema);
 ![mongo](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/schemajs.png?raw=true)
 
 
-## step 8 - Creating references
+## Creating references
 
 Your database will most likely need references for different relationship. In Mongodb, there are two types of references: manual and DBRefs. Manual reference uses the id from one schema then enter it into a new schema to reference the first schema.
 
