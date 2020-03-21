@@ -4,8 +4,8 @@ title: Setting Up
 nav_order: 2
 ---
 
-
-## Step 1 - Setting up a Mongodb account 
+### Setting up a Mongodb account 
+## Step 1 - Signing up to mongodb website
 {: .no_toc }
 
 This set up will include making a Mongodb Atlas account and configuring the cluster settings. 
@@ -14,6 +14,7 @@ Head over to the Mongodb website at https://www.mongodb.com/cloud/atlas/signup a
 
 ![registration](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/register.png?raw=true "LOGIN")
 
+## Step 2 - Choosing your cluster and region
 At the starter cluster webpage, it will give you options to choose a cloud provider and a region. Choose AWS and a recommended region. 
 
 ![cloudprovider](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/cloudprovider.png?raw=true "cloud provider")
@@ -29,8 +30,8 @@ By now, you will have set up an account and we will proceed with configuring the
 
 
 ### Setting up your cluster
-----
-## step 2 - Logging onto Mongodb Atlas
+
+## step 3 - Logging onto Mongodb Atlas
 
 Log into mongodb atlas using your email and password.
 
@@ -39,7 +40,7 @@ You should be redirected into this page if you have already set up a free cluste
 
 ![mongo](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/mongodbaltasfront.png?raw=true)
 
-## step 3 - Creating a database user
+## step 4 - Creating a database user
 >The purpose of a *database user* is to authorize the application to read, write or both onto the cluster based on the >settings you pick.
 
 On the left sidebar, go to the Security tab and select the database access. 
