@@ -7,7 +7,7 @@ nav_order: 2
 # How To Set Up A Mongodb Account And Configure Cluster Settings
 {: .no_toc }
 
-We are going to start off by making a Mongodb Atlas account and configuring the cluster settings. 
+We are going to start off by making a Mongodb Atlas account and configuring the cluster settings. We will go through the settings step by step to make sure it is configured to our needs for a basic and small web application. 
 
 ## Step 1 - Creating a Mongodb Account.
 
@@ -95,4 +95,7 @@ A new page will say connect to <your cluster name>.
 In the driver, make sure you select the correct language. For this user guide, you will be using `node.js.`
 The window will generate you the uri connection string will you can now use to connect your application to mongodb cluster.
 
-`For more information, please visit https://docs.atlas.mongodb.com/getting-started/`
+
+---
+By now, you should have your first cluster up and running with the necessary resources to connect to a remote web application. For a more in-depth tutorial on various other setting configurations, please visit: 
+`https://docs.atlas.mongodb.com/getting-started/`
