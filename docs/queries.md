@@ -6,25 +6,33 @@ nav_order: 6
 
 # How to Insert and Query Data from the Database
 {: .no_toc }
+
+## Step 1 - Installing The body-parser Package 
+If you are looking to get user data from a form, you will need to npm install body-parser to access the body of the request parameters. 
+
+Install the `body-parser` package and insert ```app.use(bodyParser.urlencoded({ extended: true }))``` to fully enable the package and access your data.
  
-## Step 1 - Creating A Post Request Endpoint In Server.js And Importing Mongoose.
+## Step 2 - Creating A Post Request Endpoint In Server.js And Importing Mongoose.
+
+Import Mongoose at the top of the file. We will be using a schema as demonstrated from the last step. 
+
+```
+const mongoose = require('mongoose')
+```
 
 We will begin to insert new data into this new endpoint. Start by creating an instance of the model and store it in a variable for it to be used as a constructor. 
-##image 
+
+![postendpoint](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/post.png?raw=true)
 
 Your first parameter _ _id_ should have the value `new mongoose.Types.ObjectId()`. It should have a constructor function since mongoose will create a unique id internally and assign it to the object. 
+Input other attributes that your schema requires. In our example above, we assume there is going to be some input from a user so we will retrieve those values through `req.body` with the help of `body-parser` we installed in step one.
 
-## Step 2 - Calling the save() on the data object
+## Step 3 - Calling the save() on the data object
 Save is provided by mongoose to store the provided object into the database. It takes in a callback function or promises. 
-
-If you are looking to get user data from a form, you will need to npm install body-parser as well to access the body of the request parameters. 
-
-## Step 3 - Installing The body-parser Package 
-Install the `body-parser` package and insert ```app.use(bodyParser.urlencoded({ extended: true }))``` to fully enable the package and access your data.
 
 Once you make a post request with data, and it saves to the database using the model construct, it should show up as an operation on MongoDB Atlas as a read or write operation in the cluster. This may take a few minutes. 
 
-Here is an example of your operations graph after a post request. R stands for 'read', to represent queries into the database. W stands for 'write' which refers to post requests that alter or insert data into the database. 
+Here is an example of your operations graph after a post request. R stands for _read_, to represent queries into the database. W stands for _write_ which refers to post requests that alter or insert data into the database. 
 
 ![mongoatlas](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/mongoatlasrw.png?raw=true)
 
