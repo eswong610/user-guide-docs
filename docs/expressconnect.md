@@ -36,7 +36,7 @@ You will copy this string with either command + c or right click it.
 
  
 ## Step 6 - Customizing your connection string 
-Recall back to the database administrator you set up. Customize your string so that your user name replaces <sample> and your user password replaces <password>.
+Recall back to the database administrator you set up. Customize your string so that your user name replaces "<sample>" and your user password replaces "<password>".
 
 ## Step 7 - Creating a connection.js file
 On your code editor, create a new folder called Database. Enter into that directory and then create a file called connection.js
