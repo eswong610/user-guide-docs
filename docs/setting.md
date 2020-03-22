@@ -8,14 +8,18 @@ nav_order: 2
 ## Step 1 - Signing up to mongodb website
 {: .no_toc }
 
-This set up will include making a Mongodb Atlas account and configuring the cluster settings. 
+We are going to start off by making a Mongodb Atlas account and configuring the cluster settings. 
+
+Step 1 - Create a Mongodb Account.
 
 Head over to the Mongodb website at https://www.mongodb.com/cloud/atlas/signup and register for an account. Once registered you will be redirect and prompted to pick a plan. There are 3 plans to choose from. For our purposes, a free account will be enough as it caters to small web applications. 
 
 ![registration](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/register.png?raw=true "LOGIN")
 
 ## Step 2 - Choosing your cluster and region
-At the starter cluster webpage, it will give you options to choose a cloud provider and a region. Choose AWS and a recommended region. 
+At the starter cluster webpage, it will give you options to choose a cloud provider and a region. 
+
+Step 2 - Choose AWS and a recommended region for your cluster. 
 
 ![cloudprovider](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/cloudprovider.png?raw=true "cloud provider")
 
@@ -31,7 +35,7 @@ By now, you will have set up an account and we will proceed with configuring the
 
 ### Setting up your cluster
 
-## step 3 - Logging onto Mongodb Atlas
+## step 1 - Logging onto Mongodb Atlas
 
 Log into mongodb atlas using your email and password.
 
@@ -40,7 +44,7 @@ You should be redirected into this page if you have already set up a free cluste
 
 ![mongo](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/mongodbaltasfront.png?raw=true)
 
-## step 4 - Creating a database user
+## step 2 - Creating a database user
 >The purpose of a *database user* is to authorize the application to read, write or both onto the cluster based on the >settings you pick.
 
 On the left sidebar, go to the Security tab and select the database access. 
@@ -52,7 +56,7 @@ Now press the add new user on the far right side. A new window should pop up lik
 
 From here you want to enter in an username and a password. Save this in a notepad or safe viewable file. For the database priveleges you will want to set it as "read and write to any database".
 
-## step 4 - whitelisting your IP address
+## step 3 - whitelisting your IP address
 
 >This is a security step that will ensure that database access will be restrict to your current IP. You can also allow >access for any IP , however you risk higher chance of security breach and exploits.
 
