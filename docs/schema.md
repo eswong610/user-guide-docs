@@ -77,6 +77,7 @@ Your database will most likely need references for different relationship. In Mo
 ![reference](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/reference.png?raw=true)
 
 1. Use _ _id_ of one value and insert into into another schema. Such as
+
 ```
 original_id = ObjectId()
 
