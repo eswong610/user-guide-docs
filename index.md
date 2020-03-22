@@ -16,7 +16,9 @@ permalink: /
 
 ----
 
-As a budding developer, crafting your own database is both time-consuming and frustrating to learn. One solution is to have third party source takes care of database handling. Mongodb Atlas provides a database as a service platform for fast database deployment. This guide will provide an introductory level to Mongodb Atlas, however you should already be familiar with development. 
+As a budding developer, crafting your own database is both time-consuming and frustrating to learn. One solution is to have third party source takes care of database handling. Mongodb Atlas provides a database as a service platform for fast database deployment. This guide will provide an introductory level to Mongodb Atlas, however you should already be familiar with creating simple server side applications. 
+
+To make the most of this guide, please complete each section from the sidebar starting from the top in a descending order. 
 
 ## Goal 
 
