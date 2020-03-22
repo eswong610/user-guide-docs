@@ -16,25 +16,25 @@ permalink: /
 
 ----
 
-As a budding developer, crafting your own database is both time-consuming and frustrating to learn. One solution is to have third party source takes care of database handling. Mongodb Atlas provides a database as a service platform for fast database deployment. This guide will provide an introductory level to Mongodb Atlas. (https://docs.atlas.mongodb.com/)
+As a budding developer, crafting your own database is both time-consuming and frustrating to learn. One solution is to have third party source takes care of database handling. Mongodb Atlas provides a database as a service platform for fast database deployment. This guide will provide an introductory level to Mongodb Atlas, however you should already be familiar with development. 
 
 ## Goal 
 
 ----
 
-By the end of this guide, you will have set up your own account with Mongodb altas free account. This will be sufficient for beginner level deployment for any small scale application.  With your account, you will create databases known as **cluster**. These clusters will be what connects mongodb to application such as a node server. You will set up a cluster to authenicate an application to be able to connect to that cluster. You'll also be making a jwt token/passport script connect to mongodb cluster. 
+By the end of this guide, you will have set up your own account with Mongodb Altas. This will be sufficient for beginner level deployment for any small scale application.  With your account, you will create databases known as _cluster_. These clusters will be what connects mongodb to application such as a node server. You will learn how to set up your own cluster, and connect it to a simple node application. After that, we will go through data input, querying information, updating and deleting values from the database.
 
-A disclaimer note: this guideline is providing instruction in javascript.
+After going through this documentation, you should be familiar with setting up your MongoDB database and be confident in setting up your own schemas for different data relationships. 
+
 
 ## Prerequisites
 
 ----
 
-1. **Node JS** 
-2. **Express** JS package installed
-3. **Mongoose** JS package installed 
-4. Knowledge of JavaScript
-5. Macbook OS 
+* Node JS as your local development environment
+* Knowledge of JavaScript at an intermediate level as this guide will be using Javascript for demonstration. 
+* macOS since the terminal commands used here are used with a Macbook
+
 
 
 [Get started now](docs/setting.md){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
