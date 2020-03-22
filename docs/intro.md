@@ -22,9 +22,9 @@ A disclaimer note: this guideline is providing instruction in javascript.
 
 ----
 
-1. Node JS 
-2. Express JS package installed
-3. Mongoose JS package installed 
+1. **Node JS** 
+2. **Express** JS package installed
+3. **Mongoose** JS package installed 
 4. Knowledge of JavaScript
 5. Macbook OS 
 
