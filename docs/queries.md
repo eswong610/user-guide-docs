@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Queries
-nav_order: 7
+title: Data Input and Queries
+nav_order: 6
 ---
 
-# Queries and Data Input
+# Data Input and Queries
 {: .no_toc }
 
-### Inserting into a schema
+### How to Insert Into A Schema
 
  
-## Step 1 - Creating a post request endpoint in server.js and importing mongoose.
+## Step 1 - Creating A Post Request Endpoint In Server.js And Importing Mongoose.
 
 We will begin to insert new data into this new endpoint. Start by creating an instance of the model and store it in a variable for it to be used as a constructor. 
 ##image 
@@ -22,8 +22,9 @@ Save is provided by mongoose to store the provided object into the database. It 
 
 If you are looking to get user data from a form, you will need to npm install body-parser as well to access the body of the request parameters. 
 
-## Step 3 - Installing the body-parser package 
-Install the body-parser package and insert `app.use(bodyParser.urlencoded({ extended: true }))` to fully enable the package and access your data.
+## Step 3 - Installing The body-parser Package 
+Install the `body-parser` package and insert ```app.use(bodyParser.urlencoded({ extended: true }))``` to fully enable the package and access your data.
+
 Try it out with a Postman post request!
 
 Once you make a post request with data, and it saves to the database using the model construct, it should show up as an operation on MongoDB Atlas as a read or write operation in the cluster. This may take a few minutes. 
@@ -34,10 +35,10 @@ Here is an example of your operations graph after a post request. R stands for '
 
 Congratulations! You've made your first entry into your database! 
 
-### Querying the database
+## Step 5 - Querying the database
 
 To query anything from the database, you will need to use various function calls on the schema. Since we named our schema 
-'sample', we will use various methods on it to show queries.
+`sample`, we will use various methods on it to show queries.
 
 ## Step 1 - Setting up the `findById` method 
 Use the method `findById` to return a data object that matches the id you input. 
