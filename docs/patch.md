@@ -54,3 +54,5 @@ Call `exec()`to execute a promise where after you will chain a `.then` and `.cat
 ![sampledel](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/deletesample.png?raw=true)
 
 The code above is an example of what you should have by the end. It is more simple than the patch method since you will only need to have an identifier.
+
+
