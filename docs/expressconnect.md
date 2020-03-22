@@ -102,3 +102,6 @@ You will be able to confirm that it is indeed connected when it prints out the s
 ---
 
 If you have completed all the steps above, you should have a project folder with a server.js and a connection.js. You should also have a working server that is connected to your mongodb database.
+
+
+[Next is Schema](/schema.md){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
