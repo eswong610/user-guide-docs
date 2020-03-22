@@ -55,4 +55,7 @@ This code will basically says to delete any data object that matches the followi
 
 The code above is an example of what you should have by the end. It is more simple than the patch method since you will only need to have an identifier.
 
+## Conclusion
+By completing all these steps, you have familiarized yourself with the basics of MongoDB. You can now connect the database with your application, set up a schema, and add or change data as you wish within it. With these skills, you can now create more intricate and advanced web applications. 
+
 
