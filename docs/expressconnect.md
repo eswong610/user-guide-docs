@@ -14,7 +14,7 @@ Select a directory and make a new folder. From that folder, you will create your
 On the terminal, start up your node package manager for your dependencies with `npm init` in your project directory. Press enter until it prompts a yes/no question. You will enter in yes or y.
 
 ## Step 3 - Installing the mongoose and express.js module
-While on the terminal, you will install mongoose and expressJS by entering this command:
+While on the terminal, you will install **mongoose** and **expressJS** by entering this command:
 ```
 npm install express mongoose
 ```
@@ -85,7 +85,7 @@ const connectDB = require('./DB/connection';
 connectDB();
 ```
 
-## Step 9 - Testing the connection
+## Step 12 - Testing the connection
 To check if the database is connected, insert a `console.log('database connected')` statement at the end of your connectDB function in your connection.js file. Return back to your terminal and enter in "node server.js". You will be able to confirm that it is indeed connected when it prints out the string.
 
 ### Conclusion
