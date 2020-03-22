@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mongodb Atlas
+title: Introduction
 nav_order: 1
 ---
 
