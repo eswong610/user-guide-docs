@@ -5,9 +5,9 @@ nav_order: 8
 ---
 
 ## Troubleshooting
-1. 
+1. If you are unable to access Mongoose in one of your files, a likely cause is that you have not imported it into the file. Ensure you have `const mongoose = require('mongoose')` for access to the library. 
 
-2. 
+2. If you are unable to login to your MongoDB account to view your activity, click the **Forgot Password** button to reset your password. For future ease, sign in using one of their social media options, such as Google. 
 
 3. If you are having trouble inputting data and writing values to your database, check the authentication for your user's Database User's Priveledges. Make sure it is checked under the **Atlas Admin**, or **Read and Write to Any Database**.  
 
