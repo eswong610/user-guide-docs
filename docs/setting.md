@@ -64,14 +64,13 @@ From here you will enter in an username and a password. Save this in a notepad o
 
 ## Step 3 - Whitelisting Your IP Address
 
->This is a security step that will ensure that database access will be restrict to your current IP. You can also allow >access for any IP , however you risk higher chance of security breach and exploits.
 
-Go to  **Network access** in the side bar navigation, and add new IP address to whitelist your IP address.
+1. Go to  **Network access** in the side bar navigation, and add new IP address to whitelist your IP address.
 There are two options to choose from. You can give permission to access from anywhere or only from specified IP adresses. 
 
 
 ```
-Warning :Giving access to the database from anywhere could potentially be a security threat. Please keep this in mind when choosing your options.
+Warning: This is a security step that will ensure that database access will be restrict to your current IP. You can also allow access for any IP , however you risk higher chance of security breach and exploits.
 ```
 
 ## Step 4 - Getting Your URI String
