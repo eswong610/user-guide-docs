@@ -80,3 +80,5 @@ There are a number of other querying functions such as find(), _findOne(), _find
 
 By now, you will have successfully input data into your Mongodb database, and can retrieve it with a variety of query functions. You should also be able to see all your activity from your account at Mongodb Atlas. 
 
+
+[Next is updating values](/patch.md){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
