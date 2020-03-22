@@ -21,7 +21,7 @@ This will come through to the back-end from req.body.
 
 ## Step 2 - Setting up the endpoint.
 Create an empty object and set it to a variable. This will be to store the values you want to update. 
-Then, write a for-loop that will pair a property and value from `req.body` into a key-value pair and store it into the empty object. 
+Assuming again we will use information taken from a user, write a for-loop that will pair a property and value from `req.body` into a key-value pair and store it into the empty object. 
 
 ## Step 3 - Filling out the update method 
 
@@ -50,6 +50,7 @@ This code will basically says to delete any data object that matches the followi
 
 ## Step 3 - Calling `exec()`to execute promise conditions. 
 Call `exec()`to execute a promise where after you will chain a `.then` and `.catch` expression to fulfill the promise conditions. 
+
 ![sampledel](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/deletesample.png?raw=true)
 
 The code above is an example of what you should have by the end. It is more simple than the patch method since you will only need to have an identifier.
