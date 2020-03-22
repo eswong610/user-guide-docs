@@ -23,9 +23,9 @@ Choose AWS and a recommended region for your cluster.
 ![cloudprovider](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/cloudprovider.png?raw=true "cloud provider")
 
 
-<$>[note]
+```
 **Note:** Make sure the cluster tier is checked under the free forever column in the M0 Sandbox row. 
-<$>
+```
 
 ![freecluster](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/cluster.png?raw=true "Free cluster")
 
@@ -63,9 +63,9 @@ From here you will enter in an username and a password. Save this in a notepad o
 Go to  **Network access** in the side bar navigation, and add new IP address to whitelist your IP address.
 There are two options to choose from. You can give permission to access from anywhere or only from specified IP adresses. 
 
-<$>[warning]
+```
 **Warning :** Giving access to the database from anywhere could potentially be a security threat. Please keep this in mind when choosing your options.
-<$>
+```
 
 ## Step 4 - Getting Your URI String
 
