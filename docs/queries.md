@@ -6,9 +6,6 @@ nav_order: 6
 
 # How to Insert and Query Data from the Database
 {: .no_toc }
-
-
-
  
 ## Step 1 - Creating A Post Request Endpoint In Server.js And Importing Mongoose.
 
@@ -25,8 +22,6 @@ If you are looking to get user data from a form, you will need to npm install bo
 ## Step 3 - Installing The body-parser Package 
 Install the `body-parser` package and insert ```app.use(bodyParser.urlencoded({ extended: true }))``` to fully enable the package and access your data.
 
-Try it out with a Postman post request!
-
 Once you make a post request with data, and it saves to the database using the model construct, it should show up as an operation on MongoDB Atlas as a read or write operation in the cluster. This may take a few minutes. 
 
 Here is an example of your operations graph after a post request. R stands for 'read', to represent queries into the database. W stands for 'write' which refers to post requests that alter or insert data into the database. 
@@ -35,16 +30,15 @@ Here is an example of your operations graph after a post request. R stands for '
 
 Congratulations! You've made your first entry into your database! 
 
-## Step 5 - Querying the database
+## Step 4 - Setting up methods to query the database
 
 To query anything from the database, you will need to use various function calls on the schema. Since we named our schema 
 `sample`, we will use various methods on it to show queries.
 
-## Step 1 - Setting up the `findById` method 
 Use the method `findById` to return a data object that matches the id you input. 
 Have a callback function as the second parameter. This will take the data object as an argument and act upon it. 
 
-## Step 2 - Creating a callback function
+## Step 5 - Creating a callback function
 Create a callback function to use the data object you will retrieve.
 
 The following code snippet is an example of how the code should look like when you make a query. 
@@ -62,4 +56,8 @@ sample.findById(myId, function (err, obj) {
 The code above will find the data object by the _id_ and remove the name attribute from the object. It will save the object and as it is without the name.  
 
 There are a number of other querying functions such as find(), _findOne(), _findOneAndReplace().
+
+## Conclusion
+
+By now, you will have successfully input data into your Mongodb database, and can retrieve it with a variety of query functions. You should also be able to see all your activity from your account at Mongodb Atlas. 
 
