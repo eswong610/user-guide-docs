@@ -7,6 +7,8 @@ nav_order: 6
 # How to Insert and Query Data from the Database
 {: .no_toc }
 
+Our database right now is empty. To make use of it, we will need to insert data with the schema we've just created. We will also go through querying data to actually retrieve values that we can use in our application. 
+
 ## Step 1 - Installing The body-parser Package 
 If you are looking to get user data from a form, you will need to npm install body-parser to access the body of the request parameters. 
 
