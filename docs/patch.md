@@ -4,9 +4,8 @@ title: Updating and Deleting Values
 nav_order: 7
 ---
 
-## Updating the database
+# How To Update And Delete Values In The Database
 {: .no_toc }
-
 
 Following from our previous task, we will now learn to update values in the database using the RESTapi method _patch_. Patching will only updates certain values of the identified object and will keep the object as a whole.
 
