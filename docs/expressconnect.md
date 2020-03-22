@@ -5,6 +5,8 @@ nav_order: 4
 ---
 ### Connecting your Mongodb to Express Server
 
+We will now start using the tools we have made to create a connection between your database and a node web application. 
+
 ## Step 1 - Setting your project folder
 1. Select a directory and make a new folder.  
 2. Create your files according to this structure in the following image insdie the new folder. 
@@ -76,24 +78,21 @@ const connectDB = ()=>{
 Note: It is important to keep our project modularized so we will take the connection and use it in the server file. 
 ```
 
-## Step 9 - Exporting the link connection
+## Step 7 - Modularizing the link connection
 
-1. Export the connection link from the file by entering this code below:
+1. Export the connection link from the connection.js file by entering this code below:
 
 ```
 module.exports = connectDB
 ```
-
-
-## Step 11 - Importing the link connection
-1. Import it into the server.js file and call it as a function like the following code snippet. 
+2. Import it into the server.js file and call it as a function like the following code snippet. 
 ```
 const connectDB = require('./DB/connection';
 
 connectDB();
 ```
 
-## Step 12 - Testing the connection
+## Step 8 - Testing the connection
 To check if the database is connected: 
 1. Insert a `console.log('database connected')` statement at the end of your connectDB function in your connection.js file. 
 2. Return back to your terminal and enter in "node server.js". 
