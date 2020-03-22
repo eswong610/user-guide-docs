@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Data Input and Queries
+title: How to Insert Into A Schema
 nav_order: 6
 ---
 
-# Data Input and Queries
+# How to Insert Into A Schema
 {: .no_toc }
 
-### How to Insert Into A Schema
+
 
  
 ## Step 1 - Creating A Post Request Endpoint In Server.js And Importing Mongoose.
