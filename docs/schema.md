@@ -6,7 +6,7 @@ nav_order: 5
 
 # How To Set Up Your Own Schema
 
-Now that we have our Mongodb cluster connected, we want to create a table or schema for data to be stored in.
+Now that we have our Mongodb cluster set up, we want to create a table or schema for data to be stored in.
 To do this we need to use Mongoose to create schema. Mongoose will also be used in other functions with Mongodb Atlas.
 
 ## Step 1 - Creating a new folder called models
@@ -112,5 +112,5 @@ Most cases you will use manual references as the developer community view DBRef 
 
 --- 
 
-By this point, you should be familiar with how to make a schema using Mongoose at this point and referencing different schemas to use for different relationships. 
+By this point, you should be familiar with how to make a schema using Mongoose and referencing other schemas to use for different data relationships. 
 
