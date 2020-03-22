@@ -25,7 +25,7 @@ Then, write a for-loop that will pair a property and value from `req.body` into 
 
 ## Step 3 - Filling out the update method 
 
-The update method will take two parameters. The first one is to locate the object that matches the conditions, and the second parameter is using $set (from Mongoose) to pass another key value object.
+The update method will take two parameters. The first one is to locate the object that matches the conditions, and the second parameter is using `$set` (from Mongoose) to pass another key value object.
 
 Assign the two parameters to your identifier and your replacement. 
 
