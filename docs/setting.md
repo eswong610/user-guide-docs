@@ -11,14 +11,19 @@ We are going to start off by making a Mongodb Atlas account and configuring the 
 
 ## Step 1 - Creating a Mongodb Account.
 
-Head over to the Mongodb website at `https://www.mongodb.com/cloud/atlas/signup` and register for an account. Once registered you will be redirect and prompted to pick a plan. There are 3 plans to choose from. For our purposes, a free account will be enough as it caters to small web applications. 
+1. Head over to the Mongodb website at `https://www.mongodb.com/cloud/atlas/signup` and register for an account. 
+Once registered you will be redirect and prompted to pick a plan. There are 3 plans to choose from. For our purposes, a free account will be enough as it caters to small web applications. 
+
+2. Choose the free $0 plan option.
 
 ![registration](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/register.png?raw=true "LOGIN")
 
 ## Step 2 - Choosing Your Cluster And Region
-To start your database, you will create a new _cluster_. At the starter cluster webpage, it will give you options to choose a cloud provider and a region. 
+1. Create a new _cluster_ to start your database. 
 
-Choose AWS and a recommended region for your cluster. 
+At the starter cluster webpage, it will give you options to choose a cloud provider and a region. 
+
+2. Choose **AWS** and a recommended region for your cluster. 
 
 ![cloudprovider](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/cloudprovider.png?raw=true "cloud provider")
 
@@ -36,7 +41,7 @@ By now, you will have set up an account and we will proceed with configuring the
 
 ## Step 3 - Logging Onto Mongodb Atlas
 
-Log into mongodb atlas using your email and password.
+1. Log into Mongodb Atlas using your email and password.
 
 You should be redirected into this page if you have already set up a free cluster.
 
@@ -45,11 +50,13 @@ You should be redirected into this page if you have already set up a free cluste
 
 ## Step 4 - Creating A Database User
 
->The purpose of a *database user* is to authorize the application to read, write or both onto the cluster based on the >settings you pick.
+```
+Note: The purpose of a database user is to authorize the application to read, write or both onto the cluster based on the settings you pick.
+```
 
-On the left sidebar, go to the Security tab and select **database access**. 
+1. Click on to the **Security tab** and select **database access**. 
 
-Click the add new user on the far right side. A new window should pop up like the image below.
+2. Click the **Add New User** on the far right side. A new window should pop up like the image below.
 
 ![mongo](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/newuser.png?raw=true)
 
@@ -70,16 +77,18 @@ Giving access to the database from anywhere could potentially be a security thre
 
 ## Step 4 - Getting Your URI String
 
-The URI string will be important for later steps. It is essential to connecting any applications you make to the database we have just created in Mongodb.
+The URI string will be important for later steps. It is essential to connecting to any applications you make with the database we have just created in Mongodb.
 
-Return back to the main page, click on the clusters on the sidebar. You will be viewing your current cluster.
-Right below the cluster name, there is a connect button. Click on it and a new window will be prompted.
+1. Return back to the main page, click on the clusters on the sidebar. You will be viewing your current cluster.
+Right below the cluster name, there is a connect button. 
+
+2. Click on the **Connect** button and a new window will be prompted.
 
 
 ![mongo](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/connect.png?raw=true)
 
 
-From here, click the **Connect your Application** option.
+3. Click the **Connect your Application** option.
 A new page will say connect to <your cluster name>.
   
 
