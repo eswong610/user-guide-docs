@@ -11,7 +11,7 @@ Select a directory and make a new folder. From that folder, you will create your
 ![fileorder](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/fileorder.png?raw=true)
 
 ## Step 2 - Preparing your project with node module dependencies
-On the terminal, start up your node package manager for your dependencies with `npm init` in your project directory. Press enter until it prompts a yes/no question. You will enter in yes or y.
+On the **terminal**, start up your node package manager for your dependencies with `npm init` in your project directory. Press enter until it prompts a yes/no question. You will enter in yes or y.
 
 ## Step 3 - Installing the mongoose and express.js module
 While on the terminal, you will install **mongoose** and **expressJS** by entering this command:
@@ -21,7 +21,7 @@ npm install express mongoose
 
 
 ## Step 4 - Creating the nodejs server
-Open up your code editor and have your workspace in the project folder. You will create a js file called server.js. 
+Open up your **code editor** and have your workspace in the project folder. You will create a js file called server.js. 
 Inside the server.js, you will enter the code shown below to have a basic server.
 
 ![server](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/server.png?raw=true)
