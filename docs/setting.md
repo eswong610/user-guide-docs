@@ -11,7 +11,7 @@ We are going to start off by making a Mongodb Atlas account and configuring the 
 
 ## Step 1 - Creating a Mongodb Account.
 
-Head over to the Mongodb website at https://www.mongodb.com/cloud/atlas/signup and register for an account. Once registered you will be redirect and prompted to pick a plan. There are 3 plans to choose from. For our purposes, a free account will be enough as it caters to small web applications. 
+Head over to the Mongodb website at `https://www.mongodb.com/cloud/atlas/signup` and register for an account. Once registered you will be redirect and prompted to pick a plan. There are 3 plans to choose from. For our purposes, a free account will be enough as it caters to small web applications. 
 
 ![registration](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/register.png?raw=true "LOGIN")
 
