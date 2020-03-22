@@ -1,4 +1,12 @@
-# GLOSSARY 
+---
+layout: default
+title: Glossary
+nav_order: 10
+description: Glossary
+---
+
+
+# Glossary 
 
 
 **Cluster**: is the term for database in mongodb. The word usually used for sharded cluster in mongodb.
