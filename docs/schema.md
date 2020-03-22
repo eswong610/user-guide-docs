@@ -30,22 +30,20 @@ const UserSchema = mongoose.Schema({});
 ```
 
 ## Step 4 - Setting your id key value.
-Inside the {} bracket you will input key:values to define the schema. That can be like id, name, password, phone number etc. 
-For id => you will put _ _id_.
-It is convention to start off with _ id with type mongoose.schemas.Types.ObjectId. This generates a randomized string/serialized string that uniquely identifies the data object. It is a function of mongoose.
+Inside the `{}` bracket you will input `key:values` to define the schema. They can be attributes like id, name, password, phone number etc. Specifically, for the `id` attribute,you will put _ _id_. It is convention to start off with _ id with type `mongoose.schemas.Types.ObjectId`. This generates a randomized string/serialized string that uniquely identifies the data object. It is a function of mongoose.
 
 Enter this for the id:
 
 ```
 _id: mongoose.Schema.Types.ObjectId,
 ```
-For key:values such as phone number you want the value to be 'Number' as illustrated below.
+For key:values such as phone number you want the value to be `Number` as illustrated below.
 
 ```
 Amount : Number,
 ```
 
-## Step 5 - Export your schema using module.exports
+## Step 5 - Export Your Schema Using module.exports
 After you finish adding in the schema values. You will export them where it takes 2 parameters ("reference name", [name]). The first argument is the name of the model you want to use internally. The second argument is the schema you want to use for that model.
 Enter in this code to export:
 ```
@@ -61,13 +59,13 @@ Your code at the end should look like this:
 ![mongo](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/schemajs.png?raw=true)
 
 
-### Creating references
+## Step 6 - Creating References
 
 Your database will most likely need references for different relationship. In Mongodb, there are two types of references: manual and DBRefs. Manual reference uses the id from one schema then enter it into a new schema to reference the first schema.
 
 ![reference](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/reference.png?raw=true)
 
-Simplest way is to use _ _id_ of one value and insert into into another schema. Such as
+The simplest way is to use _ _id_ of one value and insert into into another schema. Such as
 ```
 original_id = ObjectId()
 
@@ -99,4 +97,7 @@ The DbRef references uses the value in one schema. Like this example:
 ```
 
 Most cases you will use manual references as the developer community view DBRef negatively due to field ordering that can lead to mistake in the reading and writing of the schema.
+
+## Conclusion
+By this point, you should be familiar with how to make a schema using Mongoose at this point and referencing different schemas to use for different relationships. 
 
