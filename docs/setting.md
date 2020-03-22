@@ -85,5 +85,5 @@ A new page will say connect to <your cluster name>.
 
 ![mongo](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/uristring.png?raw=true)
 
-In the driver, make sure you select the correct language. For this user guide, you will be using node.js.
+In the driver, make sure you select the correct language. For this user guide, you will be using `node.js.`
 The window will generate you the uri connection string will you can now use to connect your application to mongodb cluster.
