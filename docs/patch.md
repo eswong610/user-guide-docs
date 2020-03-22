@@ -10,7 +10,7 @@ nav_order: 7
 Following from our previous task, we will now learn to update values in the database using the RESTapi method _patch_. Patching will only updates certain values of the identified object and will keep the object as a whole.
 
 Assuming you will retrieve the data object from a query, we will use `req.params` to retrieve the values you intend to change.  
-`req.params` is used here because params comes from the parameters of the route passed.  
+`req.params` is used here instead of `req.body` because params comes from the parameters of the route passed.  
 
 ## Step 1 - Creating an endpoint on your server that should update a pre-existing value. 
 
