@@ -20,10 +20,9 @@ Once registered you will be redirect and prompted to pick a plan. There are 3 pl
 
 ## Step 2 - Choosing Your Cluster And Region
 1. Create a new cluster to start your database. 
-
 At the starter cluster webpage, it will give you options to choose a cloud provider and a region. 
 
-2. Choose **AWS** and a recommended region for your cluster. 
+2.  Choose **AWS** and a recommended region for your cluster. 
 
 ![cloudprovider](https://github.com/eswong610/user-guide-docs/blob/gh-pages/assets/images/cloudprovider.png?raw=true "cloud provider")
 
