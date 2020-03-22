@@ -35,11 +35,9 @@ const UserSchema = mongoose.Schema({});
 ## Step 3 - Setting your id key value.
 
 1. Input `key:values` inside the `{}` bracket to define the schema. 
-
 ```
 Note: They can be attributes like id, name, password, phone number etc. Specifically, for the `id` attribute,you will put _ _id_. It is convention to start off with _ id with type `mongoose.schemas.Types.ObjectId`. This generates a randomized string/serialized string that uniquely identifies the data object. It is a function of mongoose.
 ```
-
 2. Enter this for the id:
 
 ```
@@ -58,7 +56,6 @@ Amount : Number,
 ```
 Note: The first argument is the name of the model you want to use internally. The second argument is the schema you want to use for that model.
 ```
-
 2. Enter in this code to export:
 ```
 module.exports = mongoose.model('Product', ProductSchema);
