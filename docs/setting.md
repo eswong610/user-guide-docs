@@ -96,3 +96,5 @@ A new page will say connect to <your cluster name>.
 
 In the driver, make sure you select the correct language. For this user guide, you will be using `node.js.`
 The window will generate you the uri connection string will you can now use to connect your application to mongodb cluster.
+
+`For more information, please visit https://docs.atlas.mongodb.com/getting-started/`
