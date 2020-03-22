@@ -79,7 +79,7 @@ Warning :Giving access to the database from anywhere could potentially be a secu
 
 The URI string will be important for later steps. It is essential to connecting to any applications you make with the database we have just created in Mongodb.
 
-1. Return back to the main page, click on the clusters on the sidebar. You will be viewing your current cluster.
+1. Return back to the main page, click on **Clusters** on the sidebar. You will be viewing your current cluster.
 Right below the cluster name, there is a connect button. 
 
 2. Click on the **Connect** button and a new window will be prompted.
