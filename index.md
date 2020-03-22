@@ -18,7 +18,7 @@ permalink: /
 
 As a budding developer, crafting your own database is both time-consuming and frustrating to learn. One solution is to have third party source takes care of database handling. Mongodb Atlas provides a database as a service platform for fast database deployment. This guide will provide an introductory level to Mongodb Atlas, however you should already be familiar with creating simple server side applications. 
 
-To make the most of this guide, please complete each section from the sidebar starting from the top in a descending order. 
+To make the most of this guide, please complete each section from the sidebar starting from the top in a descending order. Each section will have a thorough step by step guide on completing each numbered mini task. Please follow them as instructed and if you run into any troubles throughout, there is a troubleshoot and glossary section for you to refer to at the end. 
 
 ## Goal 
 
@@ -35,7 +35,7 @@ After going through this documentation, you should be familiar with setting up y
 
 * Node JS as your local development environment
 * Knowledge of JavaScript at an intermediate level as this guide will be using Javascript for demonstration. 
-* macOS since the terminal commands used here are used with a Macbook
+* macOS since the terminal commands used here are with a Macbook
 
 
 
