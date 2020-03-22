@@ -1,10 +1,10 @@
 ---
 layout: default
-title: How to Insert Into A Schema
+title: Data Input and Queries
 nav_order: 6
 ---
 
-# How to Insert Into A Schema
+# How to Insert and Query Data from the Database
 {: .no_toc }
 
 
