@@ -114,4 +114,4 @@ Most cases you will use manual references as the developer community view DBRef 
 
 By this point, you should be familiar with how to make a schema using Mongoose and referencing other schemas to use for different data relationships. 
 
-[Next is Data Input](/expressconnect.md){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Next is Data Input](/queries.md){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
