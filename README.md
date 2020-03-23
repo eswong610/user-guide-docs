@@ -9,7 +9,7 @@ The purpose of this user guide is to contribute to the information made availabl
 
 
 ## Process
----
+
 >1. Meetup on site and slack
 >2. Referencing Digital Ocean style format
 >3. Researching Mongodb
