@@ -2,6 +2,25 @@
 ---
 ## User guide on Mongodb Atlas
 
+By: Emmy Wong
+contribution:
+* NodeJs
+* Queries
+* Data Input
+* Troubleshoot
+* Glossary
+
+
+
+Tam Nguyen
+contribution:
+* Introduction
+* Schema
+* Setting
+* Glossary
+* Readme
+---
+
 The purpose of this user guide is to contribute to the limited information made available for mongodb Atlas. This repository is for the instructional guide for entry level developer to learn the simple features of mongodb Atlas database-as-a-service. 
 
 
