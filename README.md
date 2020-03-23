@@ -8,15 +8,6 @@
 The purpose of this user guide is to contribute to the information made available for mongodb Atlas. This repository is for the instructional guide for an intermediate level developer who is new to databases to learn the simple features of mongodb Atlas. These steps should help other developers wanting to learn mongodb Atlas on the early setups and how to connect mongodb onto their node.js application. 
 
 
-## Prerequisite
----
->1. Macbook
->2. Jekyll documentation 
->3. Github account
->4. Markdown language
->5. Digital Ocean style guide
- 
-
 ## Process
 ---
 >1. Meetup on site and slack
@@ -38,12 +29,12 @@ Some markdown text needed code implemented on a code editor, Visual Studios Code
 
 
 ## References
-*[Mongodb website](https://docs.atlas.mongodb.com/)
----
-*[cluster definition](https://docs.atlas.mongodb.com/cluster-configuration/)
----
-*[stackoverflow question mongodb schema](https://stackoverflow.com/questions/16998998/mongodb-how-to-define-a-schema)
----
+[Mongodb website](https://docs.atlas.mongodb.com/)
+
+[cluster definition](https://docs.atlas.mongodb.com/cluster-configuration/)
+
+[stackoverflow question mongodb schema](https://stackoverflow.com/questions/16998998/mongodb-how-to-define-a-schema)
+
 
 
 We would like to give thanks to BCIT FSWD program and instructor Sam Lee for the opportunity to create this User guide.
