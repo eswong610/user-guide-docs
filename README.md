@@ -2,29 +2,10 @@
 ---
 ## User guide on Mongodb Atlas
 
-By: Emmy Wong
-contribution:
-* NodeJs
-* Queries
-* Data Input
-* Troubleshoot
-* Glossary
-
-
-
-Tam Nguyen
-contribution:
-* Introduction
-* Schema
-* Setting
-* Glossary
-* Readme
 ---
 
 ## Introduction
-The purpose of this user guide is to contribute to the limited information made available for mongodb Atlas. This repository is for the instructional guide for entry level developer to learn the simple features of mongodb Atlas database-as-a-service. 
-
-These steps should help other developers wanting to learn **mongodb Atlas** on the early setups and how to connect mongodb onto their **node.js server**. 
+The purpose of this user guide is to contribute to the information made available for mongodb Atlas. This repository is for the instructional guide for an intermediate level developer who is new to databases to learn the simple features of mongodb Atlas. These steps should help other developers wanting to learn mongodb Atlas on the early setups and how to connect mongodb onto their node.js application. 
 
 
 ## Prerequisite
@@ -34,8 +15,7 @@ These steps should help other developers wanting to learn **mongodb Atlas** on t
 >3. Github account
 >4. Markdown language
 >5. Digital Ocean style guide
-
-The making of this github page in large part was from the cooperative and collaboration of **pmarsceill/just-the-docs** github repository. Using the fork function on github, one could get the complete repository to learn and to create their own github jekyll documentation theme. However, there were steps about proper web writing that took time to apply. To speed the process, our group utilize **Digital Ocean documentation style** writing for their **scannability** and **SEO (search engine optimization)**. The next step was to learn how mongodb atlas works.
+ 
 
 ## Process
 ---
@@ -46,16 +26,17 @@ The making of this github page in large part was from the cooperative and collab
 >5. Testing out user guide
 >6. Editing and reviewing
 
-We used mongodb website to create an account and looked at their documentation. Their website provided many illustration via screenshot of their UI that is often confusing with their unique terminology. Our group took time to practice on their database and relay shared information on **slack**. We conducted brief meetings to set out the different tasks to be completed. 
-
-Independently, our duo tackled the different components such as the introductory or the setup. We would notify the other and provide feedback on additional changes to be made and what future task to do. 
-
-Writing all these documentation required learning **markdown** language. The hardest part was referencing images from the repository. The rest was learned and reference from a markdown tutorial and cheat sheet. Github help in the learning process by rendering the markdown text onto a preview step or opening up the github page. 
-
-Some markdown text needed code implemented on our code editor **vscode**. Our group would create the folder and write our the code using knowledge of javascript. Vscode help testing the final product and using the codes to create screenshots or direct code snippets onto the github pages.
 
 
-The rest of the work was reviewing and editing mistakes to ensure a clean simple user guide product.
+The making of this documentation was from the collaboration of a forked **pmarsceill/just-the-docs** repository. Using the fork function on github, we could get the complete repository to learn and to create their own github jekyll documentation theme. Independently, our duo tackled the different components such as the introductory or the setup. We would notify the other and provide feedback on additional changes to be made and what future task to do. Our group took time to practice on their database and relay shared information on slack. We conducted brief meetings to set out the different tasks to be completed.
+
+We utilized digital ocean documentation style writing for their scannability and SEO (search engine optimization). It encouraged us to write in a guided manner since the format they preferred was strict on use cases of certain elements such as GUI text and code snippets. Writing with these restrictions helped our documentation look more polished and coordinated in the end.
+
+To write this document in markdown, we learned the syntax through excercises online and whilst creating the pages of this guide itself. We found it was easier to download an extension on VSCode that allows a preview of what the document would look like on the web. An alternative was to also directly edit the pages on github, however the only set back was there was no live preview to ensure our syntax was correct. The hardest part was referencing images from the repository. We had to do a bit of troubleshooting ourselves to reference an image from an uploaded file in the same repository.
+
+Some markdown text needed code implemented on a code editor, Visual Studios Code. We implemented the app as we explained throughout the guide and tested the final product throughout. Screenshots or direct code snippets were taken from the sample to use throughout the documentation.
+
+
 ## References
 *[Mongodb website](https://docs.atlas.mongodb.com/)
 ---
