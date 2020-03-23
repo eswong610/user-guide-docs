@@ -30,7 +30,9 @@ Some markdown text needed code implemented on a code editor, Visual Studios Code
 
 ## References
 >[Mongodb website](https://docs.atlas.mongodb.com/)
+
 >[Cluster Definition](https://docs.atlas.mongodb.com/cluster-configuration/)
+
 >[Stackoverflow: Mongodb Schema](https://stackoverflow.com/questions/16998998/mongodb-how-to-define-a-schema)
 
 
