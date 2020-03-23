@@ -57,11 +57,14 @@ Some markdown text needed code implemented on our code editor **vscode**. Our gr
 
 The rest of the work was reviewing and editing mistakes to ensure a clean simple user guide product.
 ## References
-[Mongodb website](https://docs.atlas.mongodb.com/)
-[cluster definition](https://docs.atlas.mongodb.com/cluster-configuration/)
-[stackoverflow question mongodb schema](https://stackoverflow.com/questions/16998998/mongodb-how-to-define-a-schema)
+*[Mongodb website](https://docs.atlas.mongodb.com/)
+---
+*[cluster definition](https://docs.atlas.mongodb.com/cluster-configuration/)
+---
+*[stackoverflow question mongodb schema](https://stackoverflow.com/questions/16998998/mongodb-how-to-define-a-schema)
+---
 
 
-We would like to give thanks to BCIT FSWD program and instructor Sam Lee for the opportunity of this User guide.
+We would like to give thanks to BCIT FSWD program and instructor Sam Lee for the opportunity to create this User guide.
 
 
